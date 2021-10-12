@@ -24,6 +24,7 @@ function App() {
   }
 
   async function fetchData(e) {
+    // eslint-disable-next-line
     const response = await api
       .get(`/weather?q=${search}&appid=${openApi}&units=metric`)
       .then((e) => {
