@@ -28,3 +28,6 @@ export const ContainerInput = styled.div`
   padding-top: 5%;
   color: black;
 `
+export const Musicas = styled.div`
+  padding-top: 45px;
+`
