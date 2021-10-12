@@ -1,3 +1,4 @@
+import { createGlobalStyle } from "styled-components"
 import styled from "styled-components"
 
 export const NavBar = styled.h1`
@@ -33,4 +34,16 @@ export const Musicas = styled.div`
   margin-bottom: 45px;
   display: flex;
   flex-direction: row;
+`
+
+export const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');  
+  html, body {
+    font-family: Mulish, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  * {
+    box-sizing: border-box;
+  }
 `

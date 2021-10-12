@@ -8,6 +8,7 @@ import Rock from "./musics/Rock/Rock"
 import Classica from "./musics/Classica/Classica"
 import Pop from "./musics/Pop/Pop"
 import Lofi from "./musics/Lofi/Lofi"
+import { GlobalStyle } from "./Style"
 
 import { NavBar, TextNav, ContainerInput, Musicas } from "./Style"
 
@@ -81,6 +82,7 @@ function App() {
         </Musicas>
         {error}
       </ContainerInput>
+      <GlobalStyle />
     </div>
   )
 }

@@ -12,14 +12,14 @@ export const Cards = styled.div`
   justify-content: center;
   width: 190px;
   height: 180px;
-  margin: 30px;
+  margin: 50px;
   min-width: 190px;
 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   p {
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-family: "Mulish", sans-serif;
     text-transform: uppercase;
     font-style: normal;
