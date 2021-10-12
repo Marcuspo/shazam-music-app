@@ -12,7 +12,7 @@
 ## Instalação do projeto: 
 
 - Clone o projeto.
-    - Abra o terminal no seu computador e rode o comando: `git clone https://github.com/Marcuspo/shazam-app.git`.
+    - Abra o terminal no seu computador e rode o comando: `git clone https://github.com/Marcuspo/shazam-music-app`.
 
 - Entre na pasta do projeto.
 
