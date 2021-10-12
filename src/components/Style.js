@@ -29,5 +29,8 @@ export const ContainerInput = styled.div`
   color: black;
 `
 export const Musicas = styled.div`
-  padding-top: 45px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: row;
 `

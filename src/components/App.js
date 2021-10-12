@@ -55,20 +55,25 @@ function App() {
               e.preventDefault()
             }}
           />
-          <Button style={{ marginTop: 15 }} type="primary" onClick={fetchData}>
-            Post
+          <Button
+            style={{ fontSize: 19, marginTop: 15 }}
+            type="primary"
+            size="large"
+            onClick={fetchData}
+          >
+            Buscar músicas
           </Button>
         </form>
         <Musicas>
           {(() => {
             if (temp >= 32) {
-              return <Rock />
+              return <Rock dados={data} />
             } else if (temp < 32 && temp >= 24) {
-              return <Pop />
+              return <Pop dados={data} />
             } else if (temp < 24 && temp > 16) {
-              return <Classica />
+              return <Classica dados={data} />
             } else if (temp < 16 && temp > 0) {
-              return <Lofi />
+              return <Lofi dados={data} />
             }
           })()}
           <br />
