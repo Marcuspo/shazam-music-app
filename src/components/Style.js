@@ -22,12 +22,14 @@ export const TextNav = styled.span`
 `
 export const ContainerInput = styled.div`
   width: 90%;
-
   justify-content: center;
   align-items: center;
   padding-left: 10%;
   padding-top: 5%;
-  color: black;
+
+  form {
+    display: flex;
+  }
 `
 export const Musicas = styled.div`
   margin-top: 45px;
