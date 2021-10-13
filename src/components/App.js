@@ -52,13 +52,13 @@ function App() {
             placeholder="Digite sua cidade"
             value={search}
             onChange={changeSearch}
-            style={{ fontSize: 20 }}
+            style={{ fontSize: 20, marginRight: 15 }}
             onPressEnter={(e) => {
               e.preventDefault()
             }}
           />
           <Button
-            style={{ fontSize: 19, marginTop: 15 }}
+            style={{ fontSize: 19 }}
             type="primary"
             size="large"
             onClick={fetchData}
