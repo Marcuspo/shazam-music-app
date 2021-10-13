@@ -32,8 +32,6 @@ export const ContainerInput = styled.div`
 export const Musicas = styled.div`
   margin-top: 45px;
   margin-bottom: 45px;
-  display: flex;
-  flex-direction: row;
 `
 
 export const GlobalStyle = createGlobalStyle`

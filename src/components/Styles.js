@@ -4,7 +4,13 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: row;
+`
+
+export const BadgeInicial = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `
 
 export const Cards = styled.div`

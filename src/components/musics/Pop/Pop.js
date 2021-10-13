@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import { Container, Cards } from "./Styles"
+import { Container, Cards, BadgeInicial } from "../../Styles"
 
 import apiSha from "../../api/apiSha"
-import { Image, Spin } from "antd"
+import { Badge, Image, Spin } from "antd"
 import { LinkOutlined } from "@ant-design/icons/lib/icons"
 
 function Pop(dados) {
@@ -35,9 +35,17 @@ function Pop(dados) {
         <Spin />
       ) : (
         <>
+          <BadgeInicial>
+            <h1> Estilo musical: Pop</h1>
+            Temperatura:
+            <Badge
+              className="site-badge-count-109"
+              count={`${dados.dados.main.temp.toFixed(0)}º`}
+              style={{ backgroundColor: "#52c41a" }}
+            />
+          </BadgeInicial>
           {data && (
             <Container>
-              {" "}
               {data.tracks.hits.map((dados) => (
                 <Cards>
                   <Image src={dados.track.images.coverart} />
