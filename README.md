@@ -19,3 +19,5 @@
 - Rode o comando `npm install` ou `yarn` para istalação das dependências..
 
 - Após a instalação, rode o comando: `npm start` ou `yarn start` e o sistema irá abrir na tela do seu navegador..
+
+..
